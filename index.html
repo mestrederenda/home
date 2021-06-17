@@ -1,0 +1,928 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title>Mestre da Renda</title>
+		<link rel='dns-prefetch' href='//s.w.org' />
+		<link rel="alternate" type="application/rss+xml" title="Feed para Mestre da Renda &raquo;" href="https://mestredarenda.com/feed/" />
+		
+		<style>
+			img.wp-smiley,
+			img.emoji {
+				display: inline !important;
+				border: none !important;
+				box-shadow: none !important;
+				height: 1em !important;
+				width: 1em !important;
+				margin: 0 .07em !important;
+				vertical-align: -0.1em !important;
+				background: none !important;
+				padding: 0 !important;
+			}
+
+
+			#clock div {
+		        text-align: center;
+		        display: inline-block;
+		        vertical-align: middle;
+		        background-color: transparent;
+		        border-radius: 5px;
+		        flex: 0 0 25%;
+		   
+		        text-align: center;
+		        text-align: center;
+		        color: white;
+      		}
+
+      		#clock2 div p{
+      			color: white;
+      		}
+
+	      	#clock div span {
+		        font-size: 30px;
+		        color: white;
+		    
+		        font-weight: 700;
+		        padding: 2vh 4vw;
+		    
+		        background-color: #c24040;
+		        display: block;
+		        margin: 0 5px;
+		        text-align: center !important;
+		        border-radius: 10px;
+
+	      	}
+
+     		#clock2 div {
+		        text-align: center;
+		        display: inline-block;
+		        vertical-align: middle;
+		        background-color: transparent;
+		        border-radius: 5px;
+		        flex: 0 0 25%;
+		    
+		        text-align: center;
+		        text-align: center;
+  
+      		}
+
+      		#clock2 div span {
+		        font-size: 30px;
+		        color: white;
+		        max-width: fit-content;
+		        font-weight: 700;
+		        padding: 2vh 4vw;
+		       
+		        background-color: #c24040;
+		        display: block;
+		        margin: 0 5px;
+		        text-align: center !important;
+		        border-radius: 10px;
+
+      		}
+		</style>
+
+		<link rel='stylesheet' id='wp-block-library-css'  href='https://mestredarenda.com/wp-includes/css/dist/block-library/style.min.css?ver=5.5.3' media='all' />
+		<link rel='stylesheet' id='wp-block-library-theme-css'  href='https://mestredarenda.com/wp-includes/css/dist/block-library/theme.min.css?ver=5.5.3' media='all' />
+		<link rel='stylesheet' id='twenty-twenty-one-style-css'  href='https://mestredarenda.com/wp-content/themes/twentytwentyone/style.css?ver=1.0' media='all' />
+		<link rel='stylesheet' id='twenty-twenty-one-print-style-css'  href='https://mestredarenda.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=1.0' media='print' />
+		<link rel='stylesheet' id='elementor-icons-css'  href='https://mestredarenda.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.9.1' media='all' />
+		<link rel='stylesheet' id='elementor-animations-css'  href='https://mestredarenda.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.0.15' media='all' />
+		<link rel='stylesheet' id='elementor-frontend-legacy-css'  href='https://mestredarenda.com/wp-content/plugins/elementor/assets/css/frontend-legacy.min.css?ver=3.0.15' media='all' />
+		<link rel='stylesheet' id='elementor-frontend-css'  href='https://mestredarenda.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.0.15' media='all' />
+		<link rel='stylesheet' id='elementor-post-432-css'  href='https://mestredarenda.com/wp-content/uploads/elementor/css/post-432.css?ver=1621255813' media='all' />
+		<link rel='stylesheet' id='elementor-pro-css'  href='https://mestredarenda.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.0.8' media='all' />
+		<link rel='stylesheet' id='elementor-global-css'  href='https://mestredarenda.com/wp-content/uploads/elementor/css/global.css?ver=1621255814' media='all' />
+		<link rel='stylesheet' id='elementor-post-2416-css'  href='https://mestredarenda.com/wp-content/uploads/elementor/css/post-2416.css?ver=1621257243' media='all' />
+		<link rel='stylesheet' id='optimizepress-default-css'  href='https://mestredarenda.com/wp-content/plugins/optimizePressPlugin/lib/assets/default.min.css?ver=2.5.19.1' media='all' />
+		<link rel='stylesheet' id='google-fonts-1-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=5.5.3' media='all' />
+		<link rel='stylesheet' id='elementor-icons-shared-0-css'  href='https://mestredarenda.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.12.0' media='all' />
+		<link rel='stylesheet' id='elementor-icons-fa-solid-css'  href='https://mestredarenda.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.12.0' media='all' />
+		<script src='https://mestredarenda.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp' id='jquery-core-js'></script>
+		<script src='https://mestredarenda.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1' id='jquery-migrate-js'></script>
+		
+		<script src='https://mestredarenda.com/wp-content/plugins/optimizePressPlugin/lib/js/op-jquery-base-all.min.js?ver=2.5.19.1' id='optimizepress-op-jquery-base-all-js'></script>
+		<link rel="https://api.w.org/" href="https://mestredarenda.com/wp-json/" /><link rel="alternate" type="application/json" href="https://mestredarenda.com/wp-json/wp/v2/pages/2416" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mestredarenda.com/xmlrpc.php?rsd" />
+		<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mestredarenda.com/wp-includes/wlwmanifest.xml" /> 
+		<meta name="generator" content="WordPress 5.5.3" />
+		<link rel="canonical" href="https://mestredarenda.com/" />
+		<link rel='shortlink' href='https://mestredarenda.com/' />
+		<link rel="alternate" type="application/json+oembed" href="https://mestredarenda.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmestredarenda.com%2F" />
+		<link rel="alternate" type="text/xml+oembed" href="https://mestredarenda.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmestredarenda.com%2F&#038;format=xml" />
+		<style>.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+       
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    </head>
+	<body class="home page-template page-template-elementor_canvas page page-id-2416 wp-embed-responsive op-plugin is-light-theme no-js singular elementor-default elementor-template-canvas elementor-kit-432 elementor-page elementor-page-2416">
+		<div data-elementor-type="wp-page" data-elementor-id="2416" class="elementor elementor-2416" data-elementor-settings="[]">
+			<div class="elementor-inner">
+				<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-68a7d495 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="68a7d495" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+								<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-eda9eaa" data-id="eda9eaa" data-element_type="column">
+									<div class="elementor-column-wrap elementor-element-populated">
+										<div class="elementor-widget-wrap">
+											<div class="elementor-element elementor-element-7a3bd385 elementor-widget elementor-widget-text-editor" data-id="7a3bd385" data-element_type="widget" data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<div class="elementor-text-editor elementor-clearfix">
+														<h1 style="letter-spacing: normal; font-size: 24px; margin: 0px 0px 20px; font-family: 'open sans', sans-serif; font-weight: 400; line-height: 1.1; color: #ffffff; padding-right: 20px; text-align: center;"><span style="margin: 0px; padding: 0px; border: 0px; font-family: Oswald, sans-serif; font-size: 35px; font-weight: 900; font-stretch: inherit; line-height: inherit; vertical-align: baseline; caret-color: #ffffff; text-size-adjust: auto;">Ex-Bancário</span><span style="caret-color: #ffffff; font-family: Oswald, sans-serif; font-size: 35px; font-weight: 900; text-size-adjust: auto; background-color: #18191b;">&nbsp;<br></span><span style="margin: 0px; padding: 0px; border: 0px; font-family: Oswald, sans-serif; font-size: 35px; font-weight: 900; font-stretch: inherit; line-height: inherit; vertical-align: baseline; text-size-adjust: auto; color: #ffbe00;">Vaza Segredo Financeiro</span><span style="caret-color: #ffffff; font-family: Oswald, sans-serif; font-size: 35px; font-weight: 900; text-size-adjust: auto; background-color: #18191b;">&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; font-family: Oswald, sans-serif; font-size: 35px; font-weight: 900; font-stretch: inherit; line-height: inherit; vertical-align: baseline; caret-color: #ffffff; text-size-adjust: auto;">que Transforma Qualquer Celular em Uma</span><span style="caret-color: #ffffff; font-family: Oswald, sans-serif; font-size: 35px; font-weight: 900; text-size-adjust: auto; background-color: #18191b;">&nbsp;</span><span style="margin: 0px; padding: 0px; border: 0px; font-family: Oswald, sans-serif; font-size: 35px; font-weight: 900; font-stretch: inherit; line-height: inherit; vertical-align: baseline; text-size-adjust: auto; color: #ffbe00;">Máquina de Imprimir Dinheiro</span>
+														</h1>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-7ba79816 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="7ba79816" data-element_type="widget" data-settings="{&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+												<div class="elementor-widget-container">
+													<div class="elementor-wrapper elementor-fit-aspect-ratio elementor-open-inline">
+														<iframe class="elementor-video-iframe" allowfullscreen title="Player de Vídeo vimeo" src="https://player.vimeo.com/video/518299194?color&amp;autopause=0&amp;loop=0&amp;muted=0&amp;title=0&amp;portrait=0&amp;byline=0#t=">
+															
+														</iframe>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-fae7e2e elementor-widget elementor-widget-html" data-id="fae7e2e" data-element_type="widget" data-widget_type="html.default">
+												<div class="elementor-widget-container">
+													<meta property="og:image" content="https://mestredarenda.com/img/meta.png">
+
+
+													<link rel="stylesheet" href="https://lotopremium.site/assets/css/lobibox.min.css">
+
+													<script src="https://lotopremium.site/assets/js/jquery-3.3.1.min.js"></script>
+
+													<script language="JavaScript" type="text/javascript" src="https://lotopremium.site/assets/js/lobibox.min.js"></script>
+
+													<script language="JavaScript" type="text/javascript" src="https://mestredarenda.com/lobi.php"></script>
+
+													<script type="text/javascript">
+      													var back_redirect_back_link = 'https://mestredarenda.com/gabriel-back-anual-1/';
+
+													      history.pushState({},"",location.href);
+													        history.pushState({},"",location.href);
+
+													        window.onpopstate = function(){
+													            setTimeout(function () {
+													              location.href = back_redirect_back_link;
+													            },1);
+													        };
+    												</script>
+
+													
+													<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+													<script type="text/javascript">
+
+														var query = location.search.slice(1);
+														var partes = query.split('&');
+														var data = {};
+														partes.forEach(function (parte) {
+														    var chaveValor = parte.split('=');
+														    var chave = chaveValor[0];
+														    var valor = chaveValor[1];
+														    data[chave] = valor;
+														});
+
+														var url = data['src'];
+
+														     $(document).ready(function () {
+														        $('.custom-url a').attr('href', "https://mestredarenda.com/checkout/checkout-167.html?" + query);
+														});
+  													</script>	
+
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-4d2399e9 elementor-widget elementor-widget-text-editor" data-id="4d2399e9" data-element_type="widget" data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<div class="elementor-text-editor elementor-clearfix">
+														<p><span style="color: #ffbe00; font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: bolder; caret-color: #ffbe00;">Clique no Play e Assista Este Vídeo<br />Antes que os &#8220;Poderosos&#8221; Tirem do Ar.<br /></span><span style="color: #ffbe00; font-family: 'Open Sans', sans-serif; font-size: 15px; font-weight: bolder; caret-color: #ffbe00;">&#8220;Eu ofereço apenas a verdade, e nada mais.&#8221;</span>
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-1c97033a elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1c97033a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+								<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-227162e5" data-id="227162e5" data-element_type="column">
+									<div class="elementor-column-wrap elementor-element-populated">
+										<div class="elementor-widget-wrap">
+											<div class="elementor-element elementor-element-565d66a3 elementor-button-success elementor-align-center elementor-mobile-align-center custom-url elementor-widget elementor-widget-button" data-id="565d66a3" data-element_type="widget" data-widget_type="button.default">
+												<div class="elementor-widget-container">
+													<div class="elementor-button-wrapper">
+														<a href="https://mestredarenda.com/checkout/checkout-167.html" target="_blank" class="elementor-button-link elementor-button elementor-size-md" role="button">
+															<span class="elementor-button-content-wrapper">
+																<span class="elementor-button-icon elementor-align-icon-left">
+																	<i aria-hidden="true" class="fas fa-arrow-right"></i>			
+																</span>
+																<span class="elementor-button-text"><b>QUERO IMPRIMIR DINHEIRO NO MEU CELULAR!</b>
+																</span>
+															</span>
+														</a>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-5bf70305 elementor-hidden-desktop elementor-widget elementor-widget-image" data-id="5bf70305" data-element_type="widget" data-widget_type="image.default">
+												<div class="elementor-widget-container">
+													<div class="elementor-image">
+														<img src="imagem/compra-segura-1150x248-1.png" title="compra-segura-1150&#215;248-1.png" alt="compra-segura-1150x248-1.png" />											
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-32a24ef7 elementor-hidden-phone elementor-hidden-tablet elementor-countdown--label-block elementor-widget elementor-widget-countdown" data-id="32a24ef7" data-element_type="widget" data-widget_type="countdown.default">
+												<div class="elementor-widget-container">
+													<center style="margin-top: 20px"><div class="clock0" id="clock2"><div><span>22</span><p>minutos</p></div><div><span>19</span><p>segundos</p></div> </div></center>
+													<div class="elementor-countdown-expire--message">Seja Rápido! As Vagas Podem Terminar a Qualquer Instante!</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-4e3cbca5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4e3cbca5" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+								<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-78dbcc98" data-id="78dbcc98" data-element_type="column">
+									<div class="elementor-column-wrap elementor-element-populated">
+										<div class="elementor-widget-wrap">
+											<div class="elementor-element elementor-element-1c16bf3e elementor-widget elementor-widget-text-editor" data-id="1c16bf3e" data-element_type="widget" data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<div class="elementor-text-editor elementor-clearfix">
+														<h2><b>Pessoas Comuns </b>Estão Ganhando <br>Um <b>Novo Salário</b> Extra Por Dia <br>Apertando <b>Poucos Botões no Celular</b></h2>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-58920e33 elementor-widget elementor-widget-html" data-id="58920e33" data-element_type="widget" data-widget_type="html.default">
+												<div class="elementor-widget-container">
+													<script src="https://kit.fontawesome.com/47947ba139.js" crossorigin="anonymous"></script>
+
+													<section class="elementor-section elementor-top-section elementor-element elementor-element-623c401c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="623c401c" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+  														<div class="elementor-container elementor-column-gap-default">
+    														<div class="elementor-row">
+      															<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5f2197db" data-id="5f2197db" data-element_type="column">
+        															<div class="elementor-column-wrap elementor-element-populated">
+          																<div class="elementor-widget-wrap">
+            																<div class="elementor-element elementor-element-6c2b2a77 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="6c2b2a77" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https://mestredarenda.com/img/1100558277.png&quot;,&quot;id&quot;:&quot;146&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+              																	<div class="elementor-widget-container">
+                																	<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+                  																		<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/AntonioCarlos.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-6c2b2a77&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                    																		<img src="/imagem/15.png" title="" alt="" />
+                    																		<div class="elementor-custom-embed-play" role="button">
+                      																			<i class="far fa-play-circle"></i>
+                        																		<span class="elementor-screen-only">Reproduzir vídeo</span>
+                    																</div>
+                  																</div>
+                															</div>
+              															</div>
+            														</div>
+          														</div>
+        													</div>
+      													</div>
+        												<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-42b3222f" data-id="42b3222f" data-element_type="column">
+      														<div class="elementor-column-wrap elementor-element-populated">
+          														<div class="elementor-widget-wrap">
+            														<div class="elementor-element elementor-element-7f6b123e elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="7f6b123e" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https://mestredarenda.com/img/2.png&quot;,&quot;id&quot;:&quot;148&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+              															<div class="elementor-widget-container">
+                															<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+                  																<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/DepJoseCarlos.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-7f6b123e&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      																<img src="/imagem/14.png" title="" alt="" />
+                      																<div class="elementor-custom-embed-play" role="button">
+              																			<i class="far fa-play-circle"></i>
+              																			<span class="elementor-screen-only">Reproduzir vídeo</span>
+            																		</div>
+                  																</div>
+          																	</div>
+        																</div>
+        															</div>
+            													</div>
+          													</div>
+    													</div>
+        												<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-312644fa" data-id="312644fa" data-element_type="column">
+      														<div class="elementor-column-wrap elementor-element-populated">
+              													<div class="elementor-widget-wrap">
+            														<div class="elementor-element elementor-element-7e6d3c3a elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="7e6d3c3a" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Nov-05-20-41-19.png&quot;,&quot;id&quot;:&quot;150&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        																<div class="elementor-widget-container">
+          																	<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																	<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/DEPPatrícia.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-7e6d3c3a&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      																<img src="/imagem/13.png" title="" alt="" />
+                      																<div class="elementor-custom-embed-play" role="button">
+																		              <i class="far fa-play-circle"></i>
+																		              <span class="elementor-screen-only">Reproduzir vídeo</span>
+            																		</div>
+                  																</div>
+          																	</div>
+        																</div>
+        															</div>
+            													</div>
+          													</div>
+    													</div>
+        												<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2b4e5623" data-id="2b4e5623" data-element_type="column">
+      														<div class="elementor-column-wrap elementor-element-populated">
+              													<div class="elementor-widget-wrap">
+           	 														<div class="elementor-element elementor-element-34e9b3ce elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="34e9b3ce" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Nov-05-20-11-08.png&quot;,&quot;id&quot;:&quot;152&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        																<div class="elementor-widget-container">
+          																	<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																	<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/Eliab-Postado.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-34e9b3ce&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      																<img src="/imagem/12.png" title="" alt="" />
+                      																<div class="elementor-custom-embed-play" role="button">
+              																			<i class="far fa-play-circle"></i>
+              																			<span class="elementor-screen-only">Reproduzir vídeo</span>
+            																		</div>
+                  																</div>
+          																	</div>
+        																</div>
+        															</div>
+            													</div>
+          													</div>
+    													</div>
+                									</div>
+          										</div>
+    										</section>
+        									<section class="elementor-section elementor-top-section elementor-element elementor-element-11ebf273 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="11ebf273" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            									<div class="elementor-container elementor-column-gap-default">
+              										<div class="elementor-row">
+          												<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-728e2bb0" data-id="728e2bb0" data-element_type="column">
+      														<div class="elementor-column-wrap elementor-element-populated">
+              													<div class="elementor-widget-wrap">
+            														<div class="elementor-element elementor-element-787c4a2 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="787c4a2" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Nov-05-20-08-14.png&quot;,&quot;id&quot;:&quot;154&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        																<div class="elementor-widget-container">
+          																	<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																	<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/MinhaexperiênciainicialcomoMestre da Renda..mp4.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-30091928&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      															<img src="/imagem/2.png" title="" alt="" />
+                      															<div class="elementor-custom-embed-play" role="button">
+																		            <i class="far fa-play-circle"></i>
+																		            <span class="elementor-screen-only">Reproduzir vídeo</span>
+            																	</div>
+                  															</div>
+          																</div>
+        															</div>
+        														</div>
+            												</div>
+          												</div>
+    												</div>
+        											<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5003cd1f" data-id="5003cd1f" data-element_type="column">
+      													<div class="elementor-column-wrap elementor-element-populated">
+              												<div class="elementor-widget-wrap">
+            													<div class="elementor-element elementor-element-145d8815 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="145d8815" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Nov-05-20-46-55.png&quot;,&quot;id&quot;:&quot;156&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        															<div class="elementor-widget-container">
+          																<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+               																<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/Ernandes.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-787c4a2&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      															<img src="/imagem/11.png" title="" alt="" />                                <div class="elementor-custom-embed-play" role="button">
+              																		<i class="far fa-play-circle"></i>
+              																		<span class="elementor-screen-only">Reproduzir vídeo</span>
+            																	</div>
+                  															</div>
+          																</div>
+        															</div>
+        														</div>
+            												</div>
+          												</div>
+    												</div>
+        											<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6d77e4fe" data-id="6d77e4fe" data-element_type="column">
+      													<div class="elementor-column-wrap elementor-element-populated">
+              												<div class="elementor-widget-wrap">
+            													<div class="elementor-element elementor-element-f8c1252 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="f8c1252" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Nov-05-20-12-52.png&quot;,&quot;id&quot;:&quot;158&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        															<div class="elementor-widget-container">
+          																<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/MayconAlisson.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-f8c1252&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      															<img src="/imagem/9.png" title="" alt="" />
+                      															<div class="elementor-custom-embed-play" role="button">
+																	            	<i class="far fa-play-circle"></i>
+																	            	<span class="elementor-screen-only">Reproduzir vídeo</span>
+            																	</div>
+                  															</div>
+          																</div>
+        															</div>
+        														</div>
+            												</div>
+          												</div>
+    												</div>
+        											<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-3dd199c2" data-id="3dd199c2" data-element_type="column">
+      													<div class="elementor-column-wrap elementor-element-populated">
+              												<div class="elementor-widget-wrap">
+            													<div class="elementor-element elementor-element-2e9da4ae elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="2e9da4ae" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Nov-05-20-14-26.png&quot;,&quot;id&quot;:&quot;160&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        															<div class="elementor-widget-container">
+          																<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/Mylena.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-2e9da4ae&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      															<img src="/imagem/8.png" title="Screenshot-at-Nov-05-20-14-26.png" alt="Screenshot-at-Nov-05-20-14-26.png" />                                
+                      															<div class="elementor-custom-embed-play" role="button">
+																	            	<i class="far fa-play-circle"></i>
+																	            	<span class="elementor-screen-only">Reproduzir vídeo</span>
+            																	</div>
+                  															</div>
+          																</div>
+        															</div>
+        														</div>
+            												</div>
+          												</div>
+    												</div>
+                								</div>
+          									</div>
+    									</section>
+        								<section class="elementor-section elementor-top-section elementor-element elementor-element-1d4290cf elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1d4290cf" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            								<div class="elementor-container elementor-column-gap-default">
+              									<div class="elementor-row">
+          											<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-73fea3a4" data-id="73fea3a4" data-element_type="column">
+      													<div class="elementor-column-wrap elementor-element-populated">
+              												<div class="elementor-widget-wrap">
+            													<div class="elementor-element elementor-element-612e54bf elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="612e54bf" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Nov-05-21-48-32.png&quot;,&quot;id&quot;:&quot;162&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;lightbox_content_position&quot;:&quot;top&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        															<div class="elementor-widget-container">
+          																<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/OMestreDaRendaFunciona_.mp4.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-612e54bf&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      															<img src="/imagem/7.png" title="Screenshot-at-Nov-05-21-48-32.png" alt="Screenshot-at-Nov-05-21-48-32.png" />                                
+                      															<div class="elementor-custom-embed-play" role="button">
+																		            <i class="far fa-play-circle"></i>
+																		            <span class="elementor-screen-only">Reproduzir vídeo</span>
+            																	</div>
+                  															</div>
+          																</div>
+        															</div>
+        														</div>
+            												</div>
+          												</div>
+    												</div>
+        											<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-65684bad" data-id="65684bad" data-element_type="column">
+      													<div class="elementor-column-wrap elementor-element-populated">
+              												<div class="elementor-widget-wrap">
+            													<div class="elementor-element elementor-element-5486aeee elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="5486aeee" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Apr-09-17-46-01.png&quot;,&quot;id&quot;:&quot;164&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        															<div class="elementor-widget-container">
+          																<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/treider.mp4.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-5486aeee&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      															<img src="/imagem/6.png" title="" alt="" />
+                      															<div class="elementor-custom-embed-play" role="button">
+																	            	<i class="far fa-play-circle"></i>
+																	            	<span class="elementor-screen-only">Reproduzir vídeo</span>
+            																	</div>
+                  															</div>
+          																</div>
+        															</div>
+        														</div>
+            												</div>
+          												</div>
+    												</div>
+        											<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-2294f8e6" data-id="2294f8e6" data-element_type="column">
+      													<div class="elementor-column-wrap elementor-element-populated">
+              												<div class="elementor-widget-wrap">
+            													<div class="elementor-element elementor-element-24154408 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="24154408" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Apr-09-17-47-02.png&quot;,&quot;id&quot;:&quot;166&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        															<div class="elementor-widget-container">
+          																<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/videoplayback(1).mp4.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-24154408&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      															<img width="1678" height="948" src="https://mestredarenda.com/img/5.png" class="attachment-full size-full" alt="" loading="lazy"/>
+                      															<div class="elementor-custom-embed-play" role="button">
+              																		<i class="far fa-play-circle"></i>
+              																		<span class="elementor-screen-only">Reproduzir vídeo</span>
+            																	</div>
+                  															</div>
+          																</div>
+        															</div>
+        														</div>
+            												</div>
+          												</div>
+    												</div>
+        											<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-6f02c826" data-id="6f02c826" data-element_type="column">
+      													<div class="elementor-column-wrap elementor-element-populated">
+              												<div class="elementor-widget-wrap">
+            													<div class="elementor-element elementor-element-410b5f09 elementor-aspect-ratio-169 elementor-widget elementor-widget-video" data-id="410b5f09" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;show_image_overlay&quot;:&quot;yes&quot;,&quot;image_overlay&quot;:{&quot;url&quot;:&quot;https:\/\/estrategiarv.com.br\/wp-content\/uploads\/2020\/12\/Screenshot-at-Apr-09-17-47-43.png&quot;,&quot;id&quot;:&quot;168&quot;},&quot;lightbox&quot;:&quot;yes&quot;,&quot;controls&quot;:&quot;yes&quot;,&quot;aspect_ratio&quot;:&quot;169&quot;}" data-widget_type="video.default">
+        															<div class="elementor-widget-container">
+          																<div class="e-hosted-video elementor-wrapper elementor-open-lightbox">
+              																<div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;hosted&quot;,&quot;url&quot;:&quot;https://mestredarenda.com/img/26demarçode2021.mp4.mp4?&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-410b5f09&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;},&quot;videoParams&quot;:{&quot;controls&quot;:&quot;&quot;,&quot;controlsList&quot;:&quot;nodownload&quot;}}">
+                      															<img width="1676" height="946" src="https://mestredarenda.com/img/4.png" class="attachment-full size-full" alt="" loading="lazy"  />
+                      															<div class="elementor-custom-embed-play" role="button">
+              																		<i class="far fa-play-circle"></i>
+              																		<span class="elementor-screen-only">Reproduzir vídeo</span>
+            																	</div>
+                  															</div>
+          																</div>
+        															</div>
+        														</div>
+            												</div>
+          												</div>
+    												</div>
+        
+          										</div>
+    										</div>
+
+    									</section>
+									</div>
+								</div>
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-5671f758 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5671f758" data-element_type="section">
+									<div class="elementor-container elementor-column-gap-default">
+										<div class="elementor-row">
+											<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-428a3c47" data-id="428a3c47" data-element_type="column">
+												<div class="elementor-column-wrap elementor-element-populated">
+													<div class="elementor-widget-wrap">
+														<div class="elementor-element elementor-element-658c6547 elementor-widget elementor-widget-text-editor" data-id="658c6547" data-element_type="widget" data-widget_type="text-editor.default">
+															<div class="elementor-widget-container">
+																<div class="elementor-text-editor elementor-clearfix"><h5>Resultados Reais:</h5></div>
+															</div>
+														</div>
+														<div class="elementor-element elementor-element-2357f9ee elementor-skin-coverflow elementor-arrows-yes elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-media-carousel" data-id="2357f9ee" data-element_type="widget" data-settings="{&quot;skin&quot;:&quot;coverflow&quot;,&quot;slides_to_scroll_mobile&quot;:&quot;1&quot;,&quot;slides_per_view&quot;:&quot;1&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="media-carousel.default">
+															<div class="elementor-widget-container">
+																<div class="elementor-swiper">
+																	<div class="elementor-main-swiper swiper-container">
+																		<div class="swiper-wrapper">
+																			<div class="swiper-slide">
+																				<div class="elementor-carousel-image" style="background-image: url(imagem/IMG_3070-scaled-1.jpg)">
+																				</div>
+																			</div>
+																			<div class="swiper-slide">
+																				<div class="elementor-carousel-image" style="background-image: url(imagem/IMG_3079-scaled-1.jpg)">
+																				</div>
+																			</div>
+																			<div class="swiper-slide">
+																				<div class="elementor-carousel-image" style="background-image: url(imagem/IMG_2575-2.jpg)">
+																				</div>
+																			</div>
+																			<div class="swiper-slide">
+																				<div class="elementor-carousel-image" style="background-image: url(imagem/IMG_3063-scaled-1.jpg)">
+																				</div>
+																			</div>
+																		</div>
+																		<div class="swiper-pagination">
+																			
+																		</div>
+																		<div class="elementor-swiper-button elementor-swiper-button-prev">
+																			<i class="eicon-chevron-left" aria-hidden="true"></i>
+																			<span class="elementor-screen-only">Previous</span>
+																		</div>
+																		<div class="elementor-swiper-button elementor-swiper-button-next">
+																			<i class="eicon-chevron-right" aria-hidden="true"></i>
+																			<span class="elementor-screen-only">Next</span>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-60486467 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="60486467" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-183d9baf" data-id="183d9baf" data-element_type="column">
+						<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+								<div class="elementor-element elementor-element-1d010d1 elementor-widget elementor-widget-heading" data-id="1d010d1" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">TRIPLIQUE O SEU INVESTIMENTO 
+											EM 3 MESES
+											OU
+											EU TE PAGO R$ 200,00 DO MEU BOLSO!
+										</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-115d119a elementor-widget elementor-widget-text-editor" data-id="115d119a" data-element_type="widget" data-widget_type="text-editor.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-text-editor elementor-clearfix">
+											<p><span style="font-family: var( --e-global-typography-text-font-family ), Sans-serif; font-weight: var( --e-global-typography-text-font-weight ); font-size: var(--global--font-size-base);">Você não entendeu errado! Não basta Ganhar Dinheiro, precisa no MÍNIMO Triplicar o Seu Investimento em 3 Meses seguindo todas as operações ou você ganha R$ 200 do meu bolso como um pedido de desculpas por ter tomado o seu tempo!</span></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-1b28280d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b28280d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7344ca4b" data-id="7344ca4b" data-element_type="column">
+						<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+								<div class="elementor-element elementor-element-20ba6f6f elementor-widget elementor-widget-heading" data-id="20ba6f6f" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">O Que é o Grupo Mestre da Renda?</h2>		</div>
+									</div>
+									<div class="elementor-element elementor-element-f4bb21c elementor-widget elementor-widget-image" data-id="f4bb21c" data-element_type="widget" data-widget_type="image.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-image">
+												<img src="imagem/telegram-app.png" title="telegram-app.png" alt="telegram-app.png" />
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-27e967ff elementor-widget elementor-widget-text-editor" data-id="27e967ff" data-element_type="widget" data-widget_type="text-editor.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-text-editor elementor-clearfix">
+												<p style="text-align: center;">
+													Mestre da Renda é um <b>Grupo no Telegram</b>, que é um app parecido com Whatsapp, com mais funcionalidades. É por lá que eu vou enviar em tempo real todas as mensagens em seu celular para que você <b>EMBOLSE os GANHOS</b> <b>EM POUCOS MINUTOS</b> apenas <b>COPIANDO </b>as Mensagens <span style="font-family: var( --e-global-typography-text-font-family ), Sans-serif; font-weight: var( --e-global-typography-text-font-weight ); font-size: var(--global--font-size-base);">sem esforço e sofrimento.</span>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-693e3b9f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="693e3b9f" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-680c3ce5" data-id="680c3ce5" data-element_type="column">
+						<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+								<div class="elementor-element elementor-element-6dd06960 elementor-widget elementor-widget-heading" data-id="6dd06960" data-element_type="widget" data-widget_type="heading.default">
+									<div class="elementor-widget-container">
+										<h2 class="elementor-heading-title elementor-size-default">Quem é Gabriel?</h2>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-6d96a389 elementor-skin-carousel elementor-arrows-yes elementor-pagination-type-bullets elementor-pagination-position-outside elementor-widget elementor-widget-media-carousel" data-id="6d96a389" data-element_type="widget" data-settings="{&quot;slides_per_view&quot;:&quot;2&quot;,&quot;slides_per_view_mobile&quot;:&quot;1&quot;,&quot;slides_to_scroll&quot;:&quot;2&quot;,&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:15,&quot;sizes&quot;:[]},&quot;autoplay_speed&quot;:3000,&quot;skin&quot;:&quot;carousel&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;show_arrows&quot;:&quot;yes&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}" data-widget_type="media-carousel.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-swiper">
+											<div class="elementor-main-swiper swiper-container">
+												<div class="swiper-wrapper">
+													<div class="swiper-slide">
+														<div class="elementor-carousel-image" style="background-image: url(imagem/WhatsApp-Image-2020-11-30-at-22.14.24-1.jpeg)">
+														</div>
+													</div>
+													<div class="swiper-slide">
+														<div class="elementor-carousel-image" style="background-image: url(imagem/BANCARIO.png)">
+														</div>
+													</div>
+													<div class="swiper-slide">
+														<div class="elementor-carousel-image" style="background-image: url(imagem/bancario-private.png)">
+														</div>
+													</div>
+													<div class="swiper-slide">
+														<div class="elementor-carousel-image" style="background-image: url(imagem/WhatsApp-Image-2020-12-02-at-13.51.12.jpeg)">
+														</div>
+													</div>
+												</div>
+												<div class="swiper-pagination">
+													
+												</div>
+												<div class="elementor-swiper-button elementor-swiper-button-prev">
+													<i class="eicon-chevron-left" aria-hidden="true"></i>
+													<span class="elementor-screen-only">Previous</span>
+												</div>
+												<div class="elementor-swiper-button elementor-swiper-button-next">
+													<i class="eicon-chevron-right" aria-hidden="true"></i>
+													<span class="elementor-screen-only">Next</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="elementor-element elementor-element-279d7370 elementor-widget elementor-widget-text-editor" data-id="279d7370" data-element_type="widget" data-widget_type="text-editor.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-text-editor elementor-clearfix">
+											<p><span style="color: #ffffff; text-align: center;">Gabriel dos Santos se formou em Princeton e trabalhou por 10 anos em Grandes Bancos, hoje<br /> ele ajuda QUALQUER PESSOA através dos seus conhecimentos em Finanças <br />a transformar seu Celular em uma <b>Impressora Financeira <br />com Apenas 3 Cliques.</b></span></p><p><span style="color: #ffffff; text-align: center;"><b> </b></span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="elementor-section elementor-top-section elementor-element elementor-element-5296152b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5296152b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-container elementor-column-gap-default">
+				<div class="elementor-row">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-540fdd4e" data-id="540fdd4e" data-element_type="column">
+						<div class="elementor-column-wrap elementor-element-populated">
+							<div class="elementor-widget-wrap">
+								<div class="elementor-element elementor-element-374bf19e elementor-widget elementor-widget-image" data-id="374bf19e" data-element_type="widget" data-widget_type="image.default">
+									<div class="elementor-widget-container">
+										<div class="elementor-image">
+											<img width="300" height="221" src="imagem/a-3-1-1-1-300x221.png" class="attachment-medium size-medium" alt="" loading="lazy" srcset="imagem/a-3-1-1-1-300x221.png 300w, imagem/a-3-1-1-1.png 404w" sizes="(max-width: 300px) 100vw, 300px" style="width:100%;height:73.51%;max-width:404px;" />											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-352fd6ce elementor-widget elementor-widget-heading" data-id="352fd6ce" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h2 class="elementor-heading-title elementor-size-default">Degustação 
+												de 7 Dias!
+											</h2>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-7818da49 elementor-widget elementor-widget-heading" data-id="7818da49" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h3 class="elementor-heading-title elementor-size-default">LUCRE com as minhas Recomendações por 7 Dias, e se 
+												não gostar eu te Devolvo 100% do seu Dinheiro 
+											</h3>		
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-1ff3c634 elementor-button-success elementor-align-center custom-url elementor-widget elementor-widget-button" data-id="1ff3c634" data-element_type="widget" data-widget_type="button.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-button-wrapper">
+												<a href="https://mestredarenda.com/checkout/checkout-167.html" target="_blank" class="elementor-button-link elementor-button elementor-size-xs" role="button">
+													<span class="elementor-button-content-wrapper">
+														<span class="elementor-button-text">EU QUERO FAZER A DEGUSTAÇÃO DE 7 DIAS!</span>
+													</span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-b8d3d71 elementor-countdown--label-block elementor-widget elementor-widget-countdown" data-id="b8d3d71" data-element_type="widget" data-widget_type="countdown.default">
+										<div class="elementor-widget-container">
+											<center style="margin-top: 20px"><div class="clock0" id="clock2"><div><span>22</span><p>minutos</p></div><div><span>19</span><p>segundos</p></div> </div></center>
+											<div class="elementor-countdown-expire--message">Seja Rápido! As Vagas Podem Terminar a Qualquer Instante!</div>		
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="elementor-section elementor-top-section elementor-element elementor-element-690ae89 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="690ae89" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-row">
+						<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6eacd46a" data-id="6eacd46a" data-element_type="column">
+							<div class="elementor-column-wrap elementor-element-populated">
+								<div class="elementor-widget-wrap">
+									<div class="elementor-element elementor-element-2dfea056 elementor-widget elementor-widget-heading" data-id="2dfea056" data-element_type="widget" data-widget_type="heading.default">
+										<div class="elementor-widget-container">
+											<h2 class="elementor-heading-title elementor-size-default">FAQ</h2>		
+										</div>
+									</div>
+									<div class="elementor-element elementor-element-70a6e088 elementor-widget elementor-widget-toggle" data-id="70a6e088" data-element_type="widget" data-widget_type="toggle.default">
+										<div class="elementor-widget-container">
+											<div class="elementor-toggle" role="tablist">
+												<div class="elementor-toggle-item">
+													<div id="elementor-tab-title-1881" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1881">
+														<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+															<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+														</span>
+														<a href="" class="elementor-toggle-title">O PAGAMENTO É SEGURO?</a>
+													</div>
+													<div id="elementor-tab-content-1881" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1881">
+														<p>O pagamento é 100% seguro e processado pela maior empresa de infoprodutos do Brasil</p>
+													</div>
+												</div>
+												<div class="elementor-toggle-item">
+													<div id="elementor-tab-title-1882" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-1882">
+														<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+															<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+														</span>
+														<a href="" class="elementor-toggle-title">COMO VOU TER ACESSO AO GRUPO?</a>
+													</div>
+													<div id="elementor-tab-content-1882" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1882">
+														<p>Na sua caixa de email, simples, rápido e fácil. Após a plataforma reconhecer o pagamento nós enviaremos todas as informações para o seu email.</p>
+													</div>
+												</div>
+												<div class="elementor-toggle-item">
+													<div id="elementor-tab-title-1883" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-1883">
+														<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+																<span class="elementor-toggle-icon-opened">
+																	<i class="elementor-toggle-icon-opened fas fa-caret-up"></i>
+															</span>
+														</span>
+														<a href="" class="elementor-toggle-title">PRECISO TER CONHECIMENTO PARA GANHAR DINHEIRO?</a>
+													</div>
+													<div id="elementor-tab-content-1883" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1883">
+														<p>A única coisa que você precisa saber é como copiar e colar nossos sinais e isso nós ensinamos dentro do curso.</p>
+													</div>
+												</div>
+												<div class="elementor-toggle-item">
+													<div id="elementor-tab-title-1884" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-1884">
+														<span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+															<span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+														</span>
+														<a href="" class="elementor-toggle-title">QUANTO DINHEIRO EU PRECISO PARA COMEÇAR?</a>
+													</div>
+													<div id="elementor-tab-content-1884" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1884">
+														<p>Com R$ 50,00 já é possível iniciar. O objetivo desta estratégia financeira é transformar centavos em reais. E não o contrário.</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="elementor-section elementor-top-section elementor-element elementor-element-1204ce58 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1204ce58" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+				<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-row">
+						<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-563345cf" data-id="563345cf" data-element_type="column">
+			<div class="elementor-column-wrap">
+							<div class="elementor-widget-wrap">
+								</div>
+					</div>
+		</div>
+								</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1757a775 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1757a775" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+							<div class="elementor-row">
+								<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ae09af0" data-id="ae09af0" data-element_type="column">
+									<div class="elementor-column-wrap elementor-element-populated">
+										<div class="elementor-widget-wrap">
+											<div class="elementor-element elementor-element-491aead0 elementor-widget elementor-widget-text-editor" data-id="491aead0" data-element_type="widget" data-widget_type="text-editor.default">
+												<div class="elementor-widget-container">
+													<div class="elementor-text-editor elementor-clearfix">
+														<p>AVISO LEGAL: Não existem garantias no Mercado de Renda Variável, nem Ganhos Fixos. Os resultados podem variar de pessoa para pessoa.</p>
+													</div>
+												</div>
+											</div>
+											<div class="elementor-element elementor-element-2ca53d27 elementor-widget elementor-widget-heading" data-id="2ca53d27" data-element_type="widget" data-widget_type="heading.default">
+												<div class="elementor-widget-container">
+													<p class="elementor-heading-title elementor-size-default">
+														<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="bdded2d3c9dcc9d2fdd0d8cec9cfd8d9dccfd8d3d9dc93ded2d0">contato@mestredarenda.com</a>
+													</p>		
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</div>
+		<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+		<script>document.body.classList.remove("no-js");</script>
+		<script>
+			if ( -1 !== navigator.userAgent.indexOf( 'MSIE' ) || -1 !== navigator.appVersion.indexOf( 'Trident/' ) ) {
+				document.body.classList.add( 'is-IE' );
+			}
+		</script>
+		<script src='https://mestredarenda.com/wp-content/themes/twentytwentyone/assets/js/polyfills.js?ver=1.0' id='twenty-twenty-one-ie11-polyfills-js'></script>
+		<script src='https://mestredarenda.com/wp-content/themes/twentytwentyone/assets/js/responsive-embeds.js?ver=1.0' id='twenty-twenty-one-responsive-embeds-script-js'></script>
+		<script src='https://mestredarenda.com/wp-includes/js/wp-embed.min.js?ver=5.5.3' id='wp-embed-js'></script>
+		<script src='https://mestredarenda.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4' id='imagesloaded-js'></script>
+		<script src='https://mestredarenda.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.0.15' id='elementor-frontend-modules-js'></script>
+		<script src='https://mestredarenda.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.0.8' id='elementor-sticky-js'></script>
+		<script id='elementor-pro-frontend-js-before'>
+			var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/mestredarenda.com\/wp-admin\/admin-ajax.php","nonce":"3275c43e6c","i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"pt_BR","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/mestredarenda.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+		</script>
+		<script src='https://mestredarenda.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.0.8' id='elementor-pro-frontend-js'></script>
+		<script src='https://mestredarenda.com/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4' id='jquery-ui-position-js'></script>
+		<script src='https://mestredarenda.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1' id='elementor-dialog-js'></script>
+		<script src='https://mestredarenda.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+		<script src='https://mestredarenda.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6' id='swiper-js'></script>
+		<script src='https://mestredarenda.com/wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.0.15' id='share-link-js'></script>
+		<script id='elementor-frontend-js-before'>
+			var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"i18n":{"shareOnFacebook":"Compartilhar no Facebook","shareOnTwitter":"Compartilhar no Twitter","pinIt":"Fixar","download":"Baixar","downloadImage":"Baixar imagem","fullscreen":"Tela cheia","zoom":"Zoom","share":"Compartilhar","playVideo":"Reproduzir v\u00eddeo","previous":"Anterior","next":"Pr\u00f3ximo","close":"Fechar"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"3.0.15","is_static":false,"legacyMode":{"elementWrappers":true},"urls":{"assets":"https:\/\/mestredarenda.com\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":2416,"title":"Mestre%20da%20Renda","excerpt":"","featuredImage":false}};
+		</script>
+		<script src='https://mestredarenda.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.0.15' id='elementor-frontend-js'></script>
+		<script>
+			/(trident|msie)/i.test(navigator.userAgent)&&document.getElementById&&window.addEventListener&&window.addEventListener("hashchange",(function(){var t,e=location.hash.substring(1);/^[A-z0-9_-]+$/.test(e)&&(t=document.getElementById(e))&&(/^(?:a|select|input|button|textarea)$/i.test(t.tagName)||(t.tabIndex=-1),t.focus())}),!1);
+		</script>
+
+		</script><script src="js/jquery.js"></script>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/jquery.countup.min.js"></script>
+  <script src="js/jquery.countdown.js"></script>
+
+  <script type="text/javascript">
+    var now= new Date;
+    var minu = now.getMinutes();
+    var hor = 0;
+    var m = 0;
+
+    if ((minu+30)>59) {
+      hor = 1;
+      m = minu - 29;
+    }else{
+      hor =0;
+      m = 30;
+    }
+
+
+    // countdown plungin init
+    $('#clock').countdown(now.getFullYear() + "/" + (now.getMonth() + 1) + "/" + now.getDate() + " " + (now.getHours()+hor) + ":" + (m) + ":" + now.getSeconds(), function(event) {
+      $(this).html(event.strftime(''
+        +'<div><span>%D</span><p>dias</p></div>'
+        +'<div><span>%H</span><p>horas</p></div>'
+        +'<div><span>%M</span><p>minutos</p></div>'
+        +'<div><span>%S</span><p>segundos</p></div>'));
+    });
+ 
+
+  // countdown plungin init
+    $('.clock0').countdown(now.getFullYear() + "/" + (now.getMonth() + 1) + "/" + now.getDate() + " " + (now.getHours()+hor) + ":" + (m) + ":" + now.getSeconds(), function(event) {
+      $(this).html(event.strftime(''
+        +'<div><span>%M</span><p>minutos</p></div>'
+        +'<div><span>%S</span><p>segundos</p></div>'));
+    });
+
+</script>
+	</body>
+</html>
